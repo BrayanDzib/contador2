@@ -23,8 +23,9 @@ function Counter() {
       <h2>Contador </h2>
       <h1> {count}</h1>
       <button onClick={decrementar}>-</button>
-      <button onClick={incrementar}>+</button>
       <button onClick={reset}>Reiniciar</button>
+      <button onClick={incrementar}>+</button>
+      
     </div>
   );
 }
